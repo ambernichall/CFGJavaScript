@@ -1,0 +1,39 @@
+.HeadingPContainer{
+    background: black;
+    margin:150px 0px;
+    height:200px;
+    width: 100%
+}
+
+.headingP-menu{
+display: flex;
+list-style: none;
+text-align: left;
+
+
+font-family: 'Barlow','sans-serif';
+font-weight: 100px;;
+font-style: 'thin';
+font-size: 11px;
+color:white;
+
+padding-left:18%;
+padding-top: 150px;
+
+}
+
+.headingP-menu-list{
+    /* spacing between lists */
+    padding-right: 5px;
+}
+
+.headingP-menu-a{
+    text-decoration: none;
+    color:white;
+}
+
+.headingP-menu-a:hover{
+    color: #F54996;
+    transition: all 0.2s ease-out;
+
+}

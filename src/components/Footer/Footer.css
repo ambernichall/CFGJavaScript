@@ -1,0 +1,95 @@
+/* Create three equal columns that sits next to each other */
+
+.FooterContainer{  
+  width:100%;
+  height:500px;
+  margin:-750px 0px;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+
+    font-family: 'Barlow','sans-serif';
+    color:white;
+  }
+
+  
+ /* LEGAL COLUMN */
+  .legal {
+    flex: 30%;
+    background-color: black;
+    padding: 20px;
+    text-decoration: none;
+  }
+
+ .legal-header{
+  padding-left:20px;
+  font-size: 18px;
+ }
+
+  .legal-link{
+    color:white;
+    text-decoration: none;
+    display: table;
+    padding:20px;
+  }
+
+
+  
+/* SOCIAL COLUMN */
+  .socials {
+    flex: 40%;
+    background-color: black;
+    padding: 20px;
+    text-decoration: none;
+    margin-top: 50px;
+  
+  }
+
+  .social-header{
+    padding-left:20px;
+    font-size: 28px;
+    text-align: center;
+   }
+  
+
+  .social-link{
+    color:white;
+    text-decoration: none;
+    display: inline;
+    padding:5px;
+   
+  }
+
+/* LINKS COLUMN */
+  .links {
+    flex: 30%;
+    background-color: black;
+    padding: 20px;
+  }
+
+  .link-header{
+    padding-left:20px;
+    font-size: 18px;
+   }
+
+  .link-link{
+    color:white;
+    text-decoration: none;
+    display: table;
+    padding:20px;
+   
+  }
+
+  footer{ 
+    /* postion to the very bottom */
+    text-align: center;
+    align-items: center;
+  }
+  /* .footer-text{
+    text-align: center;
+    align-items: center;
+  } */
+
+  

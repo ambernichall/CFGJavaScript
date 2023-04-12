@@ -1,0 +1,23 @@
+.platinum-button{
+    background-color:  white;
+    text-transform: uppercase;
+    font-family: 'Barlow','sans-serif';
+    font-weight:600;
+    font-style: 'SemiBold';
+    font-size: 15px;
+
+    width: 350px;
+    margin-top:75px;
+    padding:25px;
+    padding-left: 35px; 
+    border-style: solid;
+    border-width: 5px;
+    border-color:#9b51e0;
+}
+
+.platinum-link{
+    text-decoration: none;
+    color:black;
+}
+
+
